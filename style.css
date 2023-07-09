@@ -1,0 +1,79 @@
+body {
+    background-color: #f1f1f1;
+    font-size: 18px;
+}
+
+.avatar{
+    align-items: center;
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.profile-name{
+    flex-basis: 100%;
+    margin-left: 40px;
+    text-align: center;
+
+}
+
+.profile p{
+    color: rgb(139, 139, 139);
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.section{
+    padding: 20px;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.education{
+    padding: 20px;
+}
+
+.education ul {
+    line-height: 2;
+}
+
+.education h2 {
+    text-align: center;
+}
+
+.horizontal-list{
+    text-align: center;
+}
+
+.horizontal-list li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.horizontal-list li a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .profile{
+        display: block;
+    }
+
+    .profile-name{
+        margin-left: 0;
+    }
+}
